@@ -11,6 +11,7 @@ import {
   Button,
   IconButton,
   MuiList,
+  minHeight,
 } from "@pankod/refine-mui";
 import {
   ListOutlined,
@@ -246,7 +247,9 @@ export const Sider: typeof DefaultSider = ({ render }) => {
             sx={{
               justifyContent: "center",
               minWidth: 36,
-              color: "primary.contrastText",
+              color: "#808191",
+              marginLeft: "6px",
+              marginRight: "14px",
             }}
           >
             <Dashboard />
