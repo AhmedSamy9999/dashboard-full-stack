@@ -1,6 +1,5 @@
 import ReactApexChart from "react-apexcharts";
 import { Box, Typography, Stack } from "@pankod/refine-mui";
-import { PieChartProps } from "interfaces/home";
 import ArrowUpwardRoundedIcon from "@mui/icons-material/ArrowUpwardRounded";
 import { TotalRevenueOptions, TotalRevenueSeries } from "./chart.config";
 

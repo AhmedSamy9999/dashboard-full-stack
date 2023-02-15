@@ -11,7 +11,6 @@ import {
   Button,
   IconButton,
   MuiList,
-  minHeight,
 } from "@pankod/refine-mui";
 import {
   ListOutlined,
