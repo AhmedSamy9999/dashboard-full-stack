@@ -56,6 +56,7 @@ const Form = ({
               id="outlined-basic"
               color="info"
               variant="outlined"
+              label="Title"
               {...register("title", { required: true })}
             />
           </FormControl>
@@ -80,7 +81,7 @@ const Form = ({
                 background: "transparent",
                 fontSize: "16px",
                 borderColor: "rgba(0,0,0,0.23)",
-                borderRadius: 10,
+                borderRadius: 6,
                 padding: 10,
                 color: "#919191",
               }}
@@ -136,6 +137,7 @@ const Form = ({
                 id="outlined-basic"
                 color="info"
                 variant="outlined"
+                label="Price"
                 type="number"
                 {...register("price", { required: true })}
               />
