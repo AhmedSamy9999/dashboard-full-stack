@@ -160,6 +160,7 @@ const Form = ({
               id="outlined-basic"
               color="info"
               variant="outlined"
+              label="Location"
               {...register("location", { required: true })}
             />
           </FormControl>
@@ -178,6 +179,7 @@ const Form = ({
                 sx={{
                   width: "fit-content",
                   color: "#2ed480",
+                  backgroundColor: "#d5f6e6",
                   textTransform: "capitalize",
                   fontSize: 16,
                 }}

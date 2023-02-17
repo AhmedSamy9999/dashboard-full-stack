@@ -10,7 +10,6 @@ import {
 } from "@pankod/refine-mui";
 import { useNavigate } from "@pankod/refine-react-router-v6";
 import { PropertyCard, CustomButton } from "components";
-import { type } from "os";
 import { useMemo } from "react";
 
 const AllProperties = () => {
