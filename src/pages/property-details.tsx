@@ -59,7 +59,7 @@ const PropertyDetails = () => {
 
   return (
     <Box
-      borderRadius="15px"
+      borderRadius="30px"
       padding="20px"
       bgcolor="#FCFCFC"
       width="fit-content"
@@ -262,6 +262,7 @@ const PropertyDetails = () => {
               width="100%"
               height={306}
               style={{ borderRadius: 10, objectFit: "cover" }}
+              alt="location"
             />
           </Stack>
 
